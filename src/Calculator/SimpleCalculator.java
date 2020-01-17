@@ -4,7 +4,7 @@ package Calculator;
 import javax.swing.*;
 import java.awt.GridLayout;
 
-public class SimpleCalculater {
+public class SimpleCalculator {
 	public static void main(String[] args) {
 	JPanel windowContent = new JPanel ();
 	GridLayout g1 = new GridLayout (4,2);
@@ -25,7 +25,7 @@ public class SimpleCalculater {
 	windowContent.add(result);
 	windowContent.add(go);
 	
-	JFrame frame = new JFrame("My First Calculater");
+	JFrame frame = new JFrame("My First Calculator");
 	frame.setContentPane(windowContent);
 	
 	frame.setSize(400,100);
